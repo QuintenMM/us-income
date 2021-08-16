@@ -22,6 +22,14 @@ after this we'll try to improve the score by tuning hyperparameters and try to c
 
 as you can see traing score is very high but drops when given unseen data. this is a clear sign of overfitting. In the confusion matrix below we see a lot of data is misclassified as false negatieve.
 
+### cross-validation
+
+cross validation was my first attempt at getting a better score. I fitted the traing set and got a lower accuracy score. This combets overfitting 
+
+|cross validation score | number of folds  | standard deviation |
+|-----------------------|------------------|--------------------|
+|   85.72%              |        10        |     +/- 0.45       |
+
 ## Mission objectives
 
 - Be able to analyze a machine learning problem
