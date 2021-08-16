@@ -13,7 +13,7 @@ after this we'll try to improve the score by tuning hyperparameters and try to c
 | RandomForestClassifier | 85,14% | test  | 30 |
 
 
-![](visuals/cd_baseline.png)
+![](visuals/cf_baseline.png)
 
 ![](visuals/f1.png)
 
