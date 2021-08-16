@@ -31,7 +31,8 @@ as you can see traing score is very high but drops when given unseen data. this 
 - Be able to write clean and documented code.
 
 
-
+## conclusion
+I kept seperating features and refitting to get a better score. The dataset is inbalenced from the beginning. Even if i rebalence and keep looking for better features i can't get the score higher than an extra 2%. using more trees and optimising the model gives deminishing returns after severel folds. 
 
 
 
