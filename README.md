@@ -12,18 +12,6 @@ Predict the income of a US citizen based. an use model evaluation to check the m
 
 
 
-## Usage
-
-```python
-import pandas
-import numpy
-import seaborn
-import matplotlib.pyplot as plot
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.model_selection import train_test_split,cross_val_score,KFold,GridSearchCV
-from sklearn.metrics import confusion_matrix,classification_report,accuracy_score
-```
-
 ## Steps
 1. The data is preprocessed already, a training set and a testing set.
 3. Fit the Train sets in to the model for a baseline accuracy
