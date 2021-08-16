@@ -12,6 +12,12 @@ after this we'll try to improve the score by tuning hyperparameters and try to c
 | RandomForrestClassifier | 99,99%  | train | 30 | 
 | RandomForestClassifier | 85,14% | test  | 30 |
 
+
+![](visuals/cd_baseline.png)
+
+![](visuals/f1.png)
+
+
 as you can see traing score is very high but drops when given unseen data. this is a clear sign of overfitting. In the confusion matrix below we see a lot of data is misclassified as false negatieve.
 
 ## Mission objectives
