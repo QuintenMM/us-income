@@ -1,6 +1,9 @@
 # US-Income challenge 
+In this assignment we are given 2 datasets. one for training and on for testing. The goal is to predict income of us-citizens based 14 features. 
 
-Predict the income of a US citizen based. an use model evaluation to check the models.
+First we measure baseline accuracy using random forrest. 
+
+after this we'll try to improve the score by tuning hyperparameters and try to compensate for overfitting.
 
 ## Mission objectives
 
@@ -12,11 +15,7 @@ Predict the income of a US citizen based. an use model evaluation to check the m
 
 
 
-## Steps
-1. The data is preprocessed already, a training set and a testing set.
-3. Fit the Train sets in to the model for a baseline accuracy
-4. Tune the hyperparameters of the RandomForestClassifier & Gridsearch to get a better test score and compensate for overfitting.
-5. Look for the best parameters and increase score
+
 
 
 ## Contributors
